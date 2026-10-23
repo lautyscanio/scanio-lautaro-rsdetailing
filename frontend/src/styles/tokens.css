@@ -1,0 +1,41 @@
+/* Identidad tomada del taller real: paredes negras, tubos LED blancos,
+   piso de baldosas azules y el logo RS en azul y amarillo. */
+:root {
+    color-scheme: dark;
+
+    --ink: #0a0b0d;
+    --wall: #111317;
+    --panel: #16191e;
+    --panel-2: #1d2128;
+    --line: rgba(232, 238, 246, 0.12);
+    --line-strong: rgba(232, 238, 246, 0.26);
+
+    --led: #eef2f7;
+    --muted: #a7aebb;
+    --dim: #828a97;
+
+    --blue: #2f5bff;
+    --blue-deep: #1a3ccc;
+    --blue-ink: #0d206e;
+    --yellow: #ffcb2e;
+    --yellow-press: #f0b90b;
+
+    --danger: #ff6166;
+    --danger-bg: rgba(255, 97, 102, 0.12);
+    --success: #45d99a;
+    --success-bg: rgba(69, 217, 154, 0.12);
+
+    --radius: 14px;
+    --radius-sm: 10px;
+    --gutter: clamp(16px, 4vw, 40px);
+    --section: clamp(72px, 10vw, 136px);
+
+    --font: "Archivo", system-ui, sans-serif;
+    --wide: 125%;
+    --semi: 112%;
+
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+    --shadow-panel: 0 24px 60px -24px rgba(0, 0, 0, 0.7);
+}

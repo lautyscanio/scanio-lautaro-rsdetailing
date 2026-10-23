@@ -1,0 +1,7 @@
+/* Punto de entrada de estilos: cada archivo tiene una responsabilidad. */
+@import "./tokens.css";
+@import "./base.css";
+@import "./components.css";
+@import "./layout.css";
+@import "./home.css";
+@import "./pages.css";
